@@ -4,8 +4,8 @@ import com.qualcomm.hardware.gobilda.GoBildaPinpointDriver;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 
-@TeleOp(name = "goBILDA Pinpoint Sensing", group = "Sensors")
-public class GoBildaPinpointSensing extends LinearOpMode {
+@TeleOp(name = "goBILDA Odometry", group = "Sensors")
+public class GoBildaOdometry extends LinearOpMode {
     private GoBildaPinpointDriver pinpoint;
 
     // Tune these values for your physical pod placement.
